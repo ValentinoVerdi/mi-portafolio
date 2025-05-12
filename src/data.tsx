@@ -1,3 +1,4 @@
+import AngularIcon from "./components/icons/Angular.tsx";
 import FastaiIcon from "./components/icons/Fastai.tsx";
 import FirebaseIcon from "./components/icons/Firebase.tsx";
 import MinioIcon from "./components/icons/Minio.tsx";
@@ -7,6 +8,7 @@ import PostgreSQLIcon from "./components/icons/PostgreSQL.tsx";
 import PythonIcon from "./components/icons/Python.tsx";
 import PyTorchIcon from "./components/icons/PyTorch.tsx";
 import ReactIcon from "./components/icons/React.tsx";
+import SpringIcon from "./components/icons/Spring.tsx";
 
 export const portfolioData = {
   hero: {
@@ -72,12 +74,15 @@ export const portfolioData = {
     {
       degree: "Licenciatura en Informática - UNPSJB - Puerto Madryn",
       institution: "Porcentaje de la carrera: 75.76 %",
-      
       year: "03/2021 - (cursando 5to)",
       projects: [
         "Sistema de gestión de pedidos, entregas y facturación para empresa logística. Permite registrar clientes y domicilios, crear pedidos, generar remitos automáticos según stock disponible y emitir facturas tras la confirmación de entrega. Incluye consultas históricas por cliente, verificación de pagos y control de stock. Desarrollado como parte de un proyecto universitario."
+      ],
+      technologies: [
+        { logo: SpringIcon, name: "Spring" },
+        { logo: AngularIcon, name: "Angular" },
+        { logo: PostgreSQLIcon, name: "PostgreSQL" },
       ]
-      
     },
-  ],
+  ]
 };

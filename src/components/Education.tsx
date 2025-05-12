@@ -17,7 +17,7 @@ const Education: React.FC = () => {
             </div>
             {/* Institución debajo del título */}
             <p>{edu.institution}</p>
-            
+
             <br></br>
           </div>
 
@@ -31,6 +31,17 @@ const Education: React.FC = () => {
               </ul>
             </div>
           </div>
+          {/* Tecnologías */}
+          {edu.technologies && (
+            <div className={styles.techStack}>
+              {edu.technologies.map((tech, i) => (
+                <div key={i} className={styles.techItem}>
+                  <div className={styles.techLogo}>{tech.logo()}</div>
+                  <span className={styles.techName}>{tech.name}</span>
+                </div>
+              ))}
+            </div>
+          )}
           {/* Imagen debajo */}
           {edu.image && (
             <div className={styles.imageContainer}>
