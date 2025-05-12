@@ -48,7 +48,7 @@ export const portfolioData = {
     },
     {
       title: "MIC - Mapa Interactivo Cultural",
-      date: "06/2024 - 12/2024",
+      date: "06/2023 - 12/2023",
       role: "Full stack",
       responsibilities: [
         "Desarrollo de la aplicación MIC (PWA) utilizando NestJS para el backend, NextJS para el frontend, Postgres como base de datos y MinIO para almacenamiento.",
