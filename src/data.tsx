@@ -1,13 +1,9 @@
 import AngularIcon from "./components/icons/Angular.tsx";
-import FastaiIcon from "./components/icons/Fastai.tsx";
-import FirebaseIcon from "./components/icons/Firebase.tsx";
+import LabelMeIcon from "./components/icons/Labelme.tsx";
 import MinioIcon from "./components/icons/Minio.tsx";
 import NestjsIcon from "./components/icons/Nestjs.tsx";
 import NextjsIcon from "./components/icons/Nextjs.tsx";
 import PostgreSQLIcon from "./components/icons/PostgreSQL.tsx";
-import PythonIcon from "./components/icons/Python.tsx";
-import PyTorchIcon from "./components/icons/PyTorch.tsx";
-import ReactIcon from "./components/icons/React.tsx";
 import SpringIcon from "./components/icons/Spring.tsx";
 
 export const portfolioData = {
@@ -15,7 +11,7 @@ export const portfolioData = {
     name: "Verdi Valentino",
     role: "Estudiante de Licenciatura en Informática.",
     aboutme:
-      "Experiencia en tecnologías como React, React Native, Next.js, Nest.js, Node.js y Python. Aunque tengo un enfoque Full Stack, mi verdadera pasión está en el desarrollo de interfaces de usuario intuitivas y atractivas. Me especializo en la creación de aplicaciones escalables y eficientes, optimizando procesos y resolviendo problemas tecnológicos. Busco contribuir a proyectos que combinen diseño y funcionalidad para generar impacto positivo.",
+      "Experiencia en tecnologías como React, Next.js, Nest.js, Node.js, Python y Android studio. Aunque tengo un enfoque Full Stack, mi verdadera pasión está en el desarrollo de interfaces de usuario intuitivas y atractivas. Me especializo en la creación de aplicaciones escalables y eficientes, optimizando procesos y resolviendo problemas tecnológicos. Busco contribuir a proyectos que combinen diseño y funcionalidad para generar impacto positivo.",
     image: "/profile.webp",
   },
   contact: {
@@ -25,37 +21,14 @@ export const portfolioData = {
   },
   projects: [
     {
-      title: "Dental AI",
-      date: "09/2024 - Actualmente",
-      role: "Full stack y IA",
-      responsibilities: [
-        "Gestión de proyecto y datos de aprendizaje en Firebase Firestore y Firebase Storage, con una app web en React para anotaciones.",
-        "Desarrollo de modelo para detectar y segmentar piezas dentales usando Pytorch y OpenMMLab.",
-        "Desarrollo de modelo para detectar patologías dentales con FastAI.",
-      ],
-      technologies: [
-        {
-          logo: PythonIcon,
-          name: "Python",
-        },
-        { logo: PyTorchIcon, name: "PyTorch" },
-        { logo: FastaiIcon, name: "FastAI" },
-        { logo: FirebaseIcon, name: "Firebase" },
-        { logo: ReactIcon, name: "React" },
-      ],
-      image: "/dentalai.webp",
-      link: "",
-      androidLink: "",
-      iosLink: "",
-    },
-    {
       title: "MIC - Mapa Interactivo Cultural",
       date: "06/2023 - 12/2023",
       role: "Full stack",
       responsibilities: [
+        "Pasantia de 6 meses",
         "Desarrollo de la aplicación MIC (PWA) utilizando NestJS para el backend, NextJS para el frontend, Postgres como base de datos y MinIO para almacenamiento.",
         "Mantenimiento de la aplicación MIC (PWA), asegurando su correcto funcionamiento y actualización continua.",
-        "Gestión y despliegue de la aplicación MIC en Play Store.",
+        "Gestión y despliegue de la aplicación MIC.",
       ],
       technologies: [
         { logo: NestjsIcon, name: "NestJS" },
@@ -67,6 +40,21 @@ export const portfolioData = {
       link: "https://mapainteractivocultural.ar/",
       androidLink:
         "https://play.google.com/store/apps/details?id=ar.mapainteractivocultural.twa&hl=es_AR",
+      iosLink: "",
+    },
+    {
+      title: "Dental AI",
+      date: "09/2024 - Actualmente",
+      role: "Anotación de imagenes",
+      responsibilities: [
+        "Anotación manual de imágenes dentales con LabelMe para entrenar modelos de IA.",
+      ],
+      technologies: [
+        { logo: LabelMeIcon, name: "Labelme" },
+      ],
+      image: "/dentalai.webp",
+      link: "",
+      androidLink: "",
       iosLink: "",
     },
   ],
