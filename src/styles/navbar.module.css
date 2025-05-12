@@ -1,0 +1,83 @@
+.navbar {
+  margin-top: 5px;
+  position: fixed;
+  top: 0;
+  background-color: #282c34;
+  padding: 10px 20px;
+  z-index: 1000;
+  transition: background-color 0.3s, border-radius 0.3s;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar.scrolled {
+  background-color: #272a2e;
+  border-radius: 50px;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 0 10px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navList li {
+  display: inline;
+}
+
+.navList a {
+  text-decoration: none;
+  color: #b4b4b4;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.3s;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.navList a:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.navList .active {
+  color: white;
+  transform: scale(1.1);
+}
+
+.navList .desactive {
+  color: #b4b4b4;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .navList {
+    display: flex; /* Mantener en una línea */
+    flex-wrap: nowrap; /* Evitar que los elementos se dividan en dos líneas */
+    justify-content: center; /* Asegurar alineación centrada */
+    gap: 10px; /* Reducir espacio entre opciones */
+  }
+
+  .navList a {
+    font-size: 14px; /* Reducir tamaño del texto */
+    padding: 8px 10px; /* Ajustar padding para ahorrar espacio */
+  }
+
+  .navbar {
+    width: 90%; /* Asegurar que el navbar ocupe todo el ancho */
+    padding: 10px; /* Ajustar padding */
+  }
+
+  .navbarContainer {
+    max-width: 90%; /* Evitar que el contenedor sea más ancho de lo necesario */
+  }
+}

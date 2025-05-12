@@ -1,0 +1,60 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Eliminar subrayado en todas las situaciones */
+.contactLink,
+.contactLink:focus,
+.contactLink:active {
+  text-decoration: none !important;
+  outline: none;
+}
+
+.contactLink:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #282c34;
+}
+
+.icon {
+  margin-right: 10px;
+  color: inherit;
+  transition: color 0.2s;
+  font-size: 30px;
+}
+
+/* Media query para ajustar el tamaño de los íconos en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .contact {
+    gap: 10px;
+  }
+
+  .contactLink {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border: 1px solid #fff;
+  }
+
+  .icon {
+    margin-right: 2px;
+    font-size: 20px !important;
+  }
+}

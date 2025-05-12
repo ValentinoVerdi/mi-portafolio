@@ -1,0 +1,123 @@
+.education {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.eduItem {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.3s;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.eduItem:hover {
+  transform: translateY(-5px);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.cardHeader h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #b4b4b4;
+  text-align: right;
+}
+
+/* Contenedor del texto */
+.textContainer {
+  width: 100%;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.textContainer p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.imageContainer {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.educationImage {
+  width: 45%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.roleAndResponsibilities {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.responsibilities ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.responsibilities ul li {
+  margin-bottom: 10px;
+}
+
+/* 📱 Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .education {
+    padding: 20px;
+  }
+
+  .eduItem {
+    width: 90%;
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .cardHeader {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cardHeader h3 {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .textContainer p {
+    font-size: 14px;
+  }
+
+  .responsibilities ul {
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: left;
+  }
+}
