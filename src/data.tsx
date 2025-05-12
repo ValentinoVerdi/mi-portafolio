@@ -11,7 +11,7 @@ export const portfolioData = {
     name: "Verdi Valentino",
     role: "Estudiante de Licenciatura en Informática.",
     aboutme:
-      "Experiencia en tecnologías como React, Next.js, Nest.js, Node.js, Python y Android studio. Aunque tengo un enfoque Full Stack, mi verdadera pasión está en el desarrollo de interfaces de usuario intuitivas y atractivas. Me especializo en la creación de aplicaciones escalables y eficientes, optimizando procesos y resolviendo problemas tecnológicos. Busco contribuir a proyectos que combinen diseño y funcionalidad para generar impacto positivo.",
+      "Experiencia en tecnologías como React, Next.js, Nest.js, Node.js, Angular, Spring, Python, Java, Javascript y Kotlin. Aunque tengo un enfoque Full Stack, mi verdadera pasión está en el desarrollo de interfaces de usuario intuitivas y atractivas. Me especializo en la creación de aplicaciones escalables y eficientes, optimizando procesos y resolviendo problemas tecnológicos. Busco contribuir a proyectos que combinen diseño y funcionalidad para generar impacto positivo.",
     image: "/profile.webp",
   },
   contact: {
