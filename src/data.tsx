@@ -18,6 +18,7 @@ export const portfolioData = {
     email: "valentinoverdi17@gmail.com",
     github: "https://github.com/ValentinoVerdi",
     linkedin: "https://www.linkedin.com/in/valentino-verdi-2414972a5/",
+    cv: "/Valentino_Verdi_CV.pdf",
   },
   projects: [
     {

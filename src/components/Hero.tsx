@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { portfolioData } from "../data.tsx";
 import stylesContact from "../styles/contact.module.css";
 import styles from "../styles/hero.module.css";
@@ -68,14 +68,14 @@ const Hero: React.FC = () => {
           <FaLinkedin className={stylesContact.icon} /> LinkedIn
         </a>
 
-        {/* <a
+        <a
           href={portfolioData.contact.cv}
           target="_blank"
           rel="noopener noreferrer"
           className={stylesContact.contactLink}
         >
           <FaFileAlt className={stylesContact.icon} /> CV
-        </a> */}
+        </a>
       </section>
     </section>
   );
