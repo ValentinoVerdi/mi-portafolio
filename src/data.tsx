@@ -11,8 +11,10 @@ import LabelMeIcon from "./components/icons/Labelme.tsx";
 import MinioIcon from "./components/icons/Minio.tsx";
 import NestjsIcon from "./components/icons/Nestjs.tsx";
 import NextjsIcon from "./components/icons/Nextjs.tsx";
+import NodejsIcon from "./components/icons/Nodejs.tsx";
 import PostgreSQLIcon from "./components/icons/PostgreSQL.tsx";
 import PythonIcon from "./components/icons/Python.tsx";
+import ReactIcon from "./components/icons/React.tsx";
 import SpringIcon from "./components/icons/Spring.tsx";
 
 export const portfolioData = {
@@ -57,7 +59,7 @@ export const portfolioData = {
     },
     {
       title: "Dental AI",
-      date: "09/2024 - Actualmente",
+      date: "09/2024 - 12/2024",
       role: "Anotación de imagenes",
       responsibilities: [
         "Anotación manual de imágenes dentales con LabelMe para entrenar modelos de IA.",
@@ -69,6 +71,26 @@ export const portfolioData = {
       link: "",
       androidLink: "",
       iosLink: "",
+    },
+    {
+      title: "ARHA - Sistema de Gestión para Concesionaria",
+      date: "12/2025 - 02/2026",
+      role: "Full Stack Developer",
+      responsibilities: [
+        "Desarrollo de un CRM web integral para la gestión de una cartera de clientes y un catálogo de maquinaria agrícola y vial.",
+        "Creación de un módulo de presupuestación avanzado que permite calcular cotizaciones al contado o mediante múltiples planes de financiación configurables (ej. anticipos y cheques con distintas tasas de interés).",
+        "Generación automatizada de cotizaciones en formato PDF detallando el producto, características técnicas, datos del cliente y condiciones de entrega, listas para ser enviadas al comprador.",
+        "Implementación de un historial de presupuestos interactivo con filtros de estado, seguimiento del cliente y accesos directos para contactar vía WhatsApp."
+      ],
+      technologies: [
+        { logo: NextjsIcon, name: "Next.js" },
+        { logo: FirebaseIcon, name: "Firebase" },
+        { logo: NodejsIcon, name: "Node.js" },
+        { logo: ReactIcon, name: "React" },
+      ],
+      images: [
+        "/arha1.png",
+      ],
     },
   ],
   education: [
