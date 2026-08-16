@@ -61,38 +61,47 @@ export const portfolioData = {
       iosLink: "",
     },
     {
-      title: "Dental AI",
-      date: "09/2024 - 12/2024",
-      role: "Anotación de imagenes",
+      title: "El Mundo del Celular - ERP & CRM Empresarial Avanzado",
+      date: "12/2025 - 06/2026",
+      role: "Full Stack",
       responsibilities: [
-        "Anotación manual de imágenes dentales con LabelMe para entrenar modelos de IA.",
+        "Desarrollo integral de un sistema CRM para la gestión completa del negocio, con vistas diferenciadas por rol (Modo Admin / Modo Vendedor) sobre React, Node.js y Firebase.",
+        "Módulo de Tareas tipo Notion para asignación y seguimiento de tareas a empleados (guiones de contenido, checklist de trabajo diario), junto con una Agenda personal para organización de turnos de los administradores.",
+        "Dashboard financiero en tiempo real con métricas de ventas del día y comparativas históricas (día/semana/mes), valorización de stock, sincronizado mediante API con Binance para trazabilidad y conciliación exacta de transacciones y transferencias.",
+        "Panel de Administración con seguimiento de pedidos de clientes, stock, equipos en servicio técnico, registro y reportes de gastos (personales y del local), e integración fiscal con la API de ARCA para la emisión automatizada de facturas electrónicas.",
+        "Módulo de Reportes con gráficos analíticos de negocio (Top 5 productos más vendidos, costo real en regalos entregados, entre otros) para la toma de decisiones.",
+        "Sistema inteligente de Comprobantes integrado con la API de Meta (WhatsApp): un bot conectado a un número recibe comprobantes de pago de cualquier banco y los parsea y almacena automáticamente.",
+        "Gestión avanzada de Inventario con impresión automática de etiquetas térmicas (nombre, código de barra y precio) mediante integración con impresora térmica NexusPOS X-NX 460U.",
+        "Sincronización en tiempo real con un catálogo externo (vía API): cada alta, modificación o baja de productos en el inventario (así como el descuento de stock automático tras concretar una venta) impacta y actualiza de forma directa la aplicación orientada a los clientes desarrollada por terceros.",
+        "Lista de Precios con catálogo completo de venta y valores de canje para equipos usados como parte de pago.",
+        "Módulo de Ventas con generación automática de facturas ARCA (ventas y compras de bienes usados) en caso de ser necesarias y lectura por pistola de código de barras para carga rápida de productos.",
+        "Módulo de Presupuestos para cotizar múltiples equipos a clientes, con impresión directa mediante integración con impresora HP Smart Tank 580.",
+        "Finanzas de Clientes con auditoría completa de ventas por cliente, y módulo de Clientes para seguimiento de altas y actividad.",
+        "Módulo de Pedidos para equipos sin stock disponible, y módulo de Proveedores y Logística con comparador inteligente de precios que recomienda a qué proveedor comprar según la lista de precios cargada de cada uno.",
+        "Asistente inteligente integrado con la API de OpenAI para consultas contextuales sobre stock, clientes y métricas de ventas.",
       ],
       technologies: [
-        { logo: LabelMeIcon, name: "Labelme" },
-      ],
-      image: "/dentalai.webp",
-      link: "",
-      androidLink: "",
-      iosLink: "",
-    },
-    {
-      title: "ARHA - Sistema de Gestión para Concesionaria",
-      date: "12/2025 - 02/2026",
-      role: "Full stack",
-      responsibilities: [
-        "Desarrollo de un CRM web integral para la gestión de una cartera de clientes y un catálogo de maquinaria agrícola y vial.",
-        "Creación de un módulo de presupuestación avanzado que permite calcular cotizaciones al contado o mediante múltiples planes de financiación configurables (ej. anticipos y cheques con distintas tasas de interés).",
-        "Generación automatizada de cotizaciones en formato PDF detallando el producto, características técnicas, datos del cliente y condiciones de entrega, listas para ser enviadas al comprador.",
-        "Implementación de un historial de presupuestos interactivo con filtros de estado, seguimiento del cliente y accesos directos para contactar vía WhatsApp."
-      ],
-      technologies: [
-        { logo: NextjsIcon, name: "Next.js" },
-        { logo: FirebaseIcon, name: "Firebase" },
-        { logo: NodejsIcon, name: "Node.js" },
         { logo: ReactIcon, name: "React" },
+        { logo: NodejsIcon, name: "Node.js" },
+        { logo: FirebaseIcon, name: "Firebase" },
+        { logo: MetaIcon, name: "Meta" },
+        { logo: OpenAIIcon, name: "OpenAI" },
+        { logo: BinanceIcon, name: "Binance" },
+        // { logo: BinanceIcon, name: "ARCA" },
       ],
       images: [
-        "/arha1.png",
+        "/iphones1.png",
+        "/iphones2.png",
+        "/iphones3.png",
+        "/iphones4.png",
+        "/iphones5.png",
+        "/iphones6.png",
+        "/iphones7.png",
+        "/iphones8.png",
+        "/iphones9.png",
+        "/iphones10.png",
+        "/iphones11.png",
+        "/iphones12.png",
       ],
     },
     {
@@ -122,50 +131,39 @@ export const portfolioData = {
       ],
     },
     {
-      title: "El Mundo del Celular - ERP & CRM Empresarial Avanzado",
-      date: "12/2025 - 06/2026",
-      role: "Full Stack",
+      title: "ARHA - Sistema de Gestión para Concesionaria",
+      date: "12/2025 - 02/2026",
+      role: "Full stack",
       responsibilities: [
-        "Desarrollo integral de un sistema CRM para la gestión completa del negocio, con vistas diferenciadas por rol (Modo Admin / Modo Vendedor) sobre React, Node.js y Firebase.",
-        "Módulo de Tareas tipo Notion para asignación y seguimiento de tareas a empleados (guiones de contenido, checklist de trabajo diario), junto con una Agenda personal para organización de turnos de los administradores.",
-        "Dashboard financiero en tiempo real con métricas de ventas del día y comparativas históricas (día/semana/mes), valorización de stock, sincronizado mediante API con Binance para trazabilidad y conciliación exacta de transacciones y transferencias.",
-        "Panel de Administración con seguimiento de pedidos de clientes, stock, equipos en servicio técnico, registro y reportes de gastos (personales y del local), e integración fiscal con la API de ARCA para la emisión automatizada de facturas electrónicas.",
-        "Módulo de Reportes con gráficos analíticos de negocio (Top 5 productos más vendidos, costo real en regalos entregados, entre otros) para la toma de decisiones.",
-        "Sistema inteligente de Comprobantes integrado con la API de Meta (WhatsApp): un bot conectado a un número recibe comprobantes de pago de cualquier banco y los parsea y almacena automáticamente.",
-        "Gestión avanzada de Inventario con impresión automática de etiquetas térmicas (nombre, código de barra y precio) mediante integración con impresora térmica NexusPOS X-NX 460U.",
-        "Sincronización en tiempo real con un catálogo externo (vía API): cada alta, modificación o baja de productos en el inventario (así como el descuento de stock automático tras concretar una venta) impacta y actualiza de forma directa la aplicación orientada a los clientes desarrollada por terceros.",
-        "Lista de Precios con catálogo completo de venta y valores de canje para equipos usados como parte de pago.",
-        "Módulo de Ventas con generación automática de facturas ARCA (ventas y compras de bienes usados) en caso de ser necesarias y lectura por pistola de código de barras para carga rápida de productos.",
-        "Módulo de Presupuestos para cotizar múltiples equipos a clientes, con impresión directa mediante integración con impresora HP Smart Tank 580.",
-        "Finanzas de Clientes con auditoría completa de ventas por cliente, y módulo de Clientes para seguimiento de altas y actividad.",
-        "Módulo de Pedidos para equipos sin stock disponible, y módulo de Proveedores y Logística con comparador inteligente de precios que recomienda a qué proveedor comprar según la lista de precios cargada de cada uno.",
-        "Control de RRHH (Empleados) con gráficos de ventas por empleado, horas trabajadas, vacaciones y faltas, además de un módulo de Auditoría para cierres de caja, ventas y stock.",
-        "Asistente inteligente integrado con la API de OpenAI para consultas contextuales sobre stock, clientes y métricas de ventas.",
-        "Panel de Configuración general para administradores."
+        "Desarrollo de un CRM web integral para la gestión de una cartera de clientes y un catálogo de maquinaria agrícola y vial.",
+        "Creación de un módulo de presupuestación avanzado que permite calcular cotizaciones al contado o mediante múltiples planes de financiación configurables (ej. anticipos y cheques con distintas tasas de interés).",
+        "Generación automatizada de cotizaciones en formato PDF detallando el producto, características técnicas, datos del cliente y condiciones de entrega, listas para ser enviadas al comprador.",
+        "Implementación de un historial de presupuestos interactivo con filtros de estado, seguimiento del cliente y accesos directos para contactar vía WhatsApp."
       ],
       technologies: [
-        { logo: ReactIcon, name: "React" },
-        { logo: NodejsIcon, name: "Node.js" },
+        { logo: NextjsIcon, name: "Next.js" },
         { logo: FirebaseIcon, name: "Firebase" },
-        { logo: MetaIcon, name: "Meta" },
-        { logo: OpenAIIcon, name: "OpenAI" },
-        { logo: BinanceIcon, name: "Binance" },
-        // { logo: BinanceIcon, name: "ARCA" },
+        { logo: NodejsIcon, name: "Node.js" },
+        { logo: ReactIcon, name: "React" },
       ],
       images: [
-        "/iphones1.png",
-        "/iphones2.png",
-        "/iphones3.png",
-        "/iphones4.png",
-        "/iphones5.png",
-        "/iphones6.png",
-        "/iphones7.png",
-        "/iphones8.png",
-        "/iphones9.png",
-        "/iphones10.png",
-        "/iphones11.png",
-        "/iphones12.png",
+        "/arha1.png",
       ],
+    },
+    {
+      title: "Dental AI",
+      date: "09/2024 - 12/2024",
+      role: "Anotación de imagenes",
+      responsibilities: [
+        "Anotación manual de imágenes dentales con LabelMe para entrenar modelos de IA.",
+      ],
+      technologies: [
+        { logo: LabelMeIcon, name: "Labelme" },
+      ],
+      image: "/dentalai.webp",
+      link: "",
+      androidLink: "",
+      iosLink: "",
     },
   ],
   education: [
@@ -175,24 +173,6 @@ export const portfolioData = {
       year: "03/2021 - Cursada finalizada",
       projects: [],
       technologies: null
-    },
-    {
-      degree: "Proyecto Universitario: Sistema de Logística",
-      institution: "Laboratorio de Programación y Lenguajes",
-      year: "03/2023 - 06/2023",
-      projects: [
-        "Sistema de gestión de pedidos, entregas y facturación para empresa logística. Permite registrar clientes y domicilios, crear pedidos, generar remitos automáticos según stock disponible y emitir facturas tras la confirmación de entrega. Incluye consultas históricas por cliente, verificación de pagos y control de stock."
-      ],
-      technologies: [
-        { logo: SpringIcon, name: "Spring" },
-        { logo: AngularIcon, name: "Angular" },
-        { logo: PostgreSQLIcon, name: "PostgreSQL" },
-        { logo: HTMLIcon, name: "HTML" },
-      ],
-      //deberia clonar el proyecto y alta paja, de ultima crear una con antigravity
-      images: [
-
-      ],
     },
     {
       degree: "Tesina de Grado: Planificador de Tiempo Real con Slack Stealing",
@@ -235,6 +215,24 @@ export const portfolioData = {
       //ver como arreglar esta imagen porque si la pongo se ve como el orto
       images: [
         //"/padel1.png",
+      ],
+    },
+    {
+      degree: "Proyecto Universitario: Sistema de Logística",
+      institution: "Laboratorio de Programación y Lenguajes",
+      year: "03/2023 - 06/2023",
+      projects: [
+        "Sistema de gestión de pedidos, entregas y facturación para empresa logística. Permite registrar clientes y domicilios, crear pedidos, generar remitos automáticos según stock disponible y emitir facturas tras la confirmación de entrega. Incluye consultas históricas por cliente, verificación de pagos y control de stock."
+      ],
+      technologies: [
+        { logo: SpringIcon, name: "Spring" },
+        { logo: AngularIcon, name: "Angular" },
+        { logo: PostgreSQLIcon, name: "PostgreSQL" },
+        { logo: HTMLIcon, name: "HTML" },
+      ],
+      //deberia clonar el proyecto y alta paja, de ultima crear una con antigravity
+      images: [
+
       ],
     },
   ]
