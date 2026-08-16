@@ -1,8 +1,12 @@
+import AndroidStudioIcon from "./components/icons/AndroidStudio.tsx";
 import AngularIcon from "./components/icons/Angular.tsx";
 import CplusplusIcon from "./components/icons/Cplusplus.tsx";
 import ESP32Icon from "./components/icons/ESP32.tsx";
+import FirebaseIcon from "./components/icons/Firebase.tsx";
 import FreeRTOSIcon from "./components/icons/FreeRTOS.tsx";
 import HTMLIcon from "./components/icons/HTML.tsx";
+import JetpackComposeIcon from "./components/icons/JetpackCompose.tsx";
+import KotlinIcon from "./components/icons/Kotlin.tsx";
 import LabelMeIcon from "./components/icons/Labelme.tsx";
 import MinioIcon from "./components/icons/Minio.tsx";
 import NestjsIcon from "./components/icons/Nestjs.tsx";
@@ -77,7 +81,7 @@ export const portfolioData = {
     },
     {
       degree: "Proyecto Universitario: Sistema de Logística",
-      institution: "Desarrollo Académico",
+      institution: "Laboratorio de Programación y Lenguajes",
       year: "03/2023 - 06/2023",
       projects: [
         "Sistema de gestión de pedidos, entregas y facturación para empresa logística. Permite registrar clientes y domicilios, crear pedidos, generar remitos automáticos según stock disponible y emitir facturas tras la confirmación de entrega. Incluye consultas históricas por cliente, verificación de pagos y control de stock."
@@ -87,7 +91,7 @@ export const portfolioData = {
         { logo: AngularIcon, name: "Angular" },
         { logo: PostgreSQLIcon, name: "PostgreSQL" },
         { logo: HTMLIcon, name: "HTML" },
-      ]
+      ],
     },
     {
       degree: "Tesina de Grado: Planificador de Tiempo Real con Slack Stealing",
@@ -106,7 +110,30 @@ export const portfolioData = {
         { logo: ESP32Icon, name: "ESP32" },
         { logo: PythonIcon, name: "Python" },
         { logo: HTMLIcon, name: "HTML" }
-      ]
-    }
+      ],
+      images: [
+        "/tesis1.png",
+      ],
+    },
+    {
+      degree: "Proyecto Universitario: Gestión de Torneos de Pádel",
+      institution: "Taller de Nuevas Tecnologías",
+      year: "03/2025 - 06/2025",
+      projects: [
+        "Desarrollo de un sistema compuesto por dos aplicaciones móviles nativas en Android Studio: una orientada a jugadores/aficionados y otra para la gestión exclusiva de los coordinadores.",
+        "Implementación de funcionalidades para inscripción a torneos con comprobantes de pago, seguimiento de partidos en vivo, geolocalización de ofertas de sponsors y validación de códigos para asociaciones.",
+        "Integración con Firebase (Auth, Firestore y Storage) para la persistencia de datos en la nube y sincronización en tiempo real mediante Live Data y Snapshots, sumado a Room para el manejo de datos locales.",
+        "Implementación de notificaciones Push interactivas."
+      ],
+      technologies: [
+        { logo: AndroidStudioIcon, name: "Android Studio" },
+        { logo: FirebaseIcon, name: "Firebase" },
+        { logo: KotlinIcon, name: "Kotlin" },
+        { logo: JetpackComposeIcon, name: "Jetpack Compose" },
+      ],
+      images: [
+        "/padel1.png",
+      ],
+    },
   ]
 };
