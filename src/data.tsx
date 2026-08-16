@@ -43,7 +43,9 @@ export const portfolioData = {
         { logo: PostgreSQLIcon, name: "PostgreSQL" },
         { logo: MinioIcon, name: "MinIO" },
       ],
-      image: "/mic.webp",
+      images: [
+        "/mic.webp",
+      ],
       link: "https://mapainteractivocultural.ar/",
       androidLink:
         "https://play.google.com/store/apps/details?id=ar.mapainteractivocultural.twa&hl=es_AR",
