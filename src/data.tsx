@@ -8,10 +8,12 @@ import HTMLIcon from "./components/icons/HTML.tsx";
 import JetpackComposeIcon from "./components/icons/JetpackCompose.tsx";
 import KotlinIcon from "./components/icons/Kotlin.tsx";
 import LabelMeIcon from "./components/icons/Labelme.tsx";
+import MetaIcon from "./components/icons/Meta.tsx";
 import MinioIcon from "./components/icons/Minio.tsx";
 import NestjsIcon from "./components/icons/Nestjs.tsx";
 import NextjsIcon from "./components/icons/Nextjs.tsx";
 import NodejsIcon from "./components/icons/Nodejs.tsx";
+import OpenAIIcon from "./components/icons/OpenAI.tsx";
 import PostgreSQLIcon from "./components/icons/PostgreSQL.tsx";
 import PythonIcon from "./components/icons/Python.tsx";
 import ReactIcon from "./components/icons/React.tsx";
@@ -75,7 +77,7 @@ export const portfolioData = {
     {
       title: "ARHA - Sistema de Gestión para Concesionaria",
       date: "12/2025 - 02/2026",
-      role: "Full Stack Developer",
+      role: "Full stack",
       responsibilities: [
         "Desarrollo de un CRM web integral para la gestión de una cartera de clientes y un catálogo de maquinaria agrícola y vial.",
         "Creación de un módulo de presupuestación avanzado que permite calcular cotizaciones al contado o mediante múltiples planes de financiación configurables (ej. anticipos y cheques con distintas tasas de interés).",
@@ -90,6 +92,32 @@ export const portfolioData = {
       ],
       images: [
         "/arha1.png",
+      ],
+    },
+    {
+      title: "El Mundo del Celular - CRM & AI Chatbot Omnicanal",
+      date: "04/2026 - En desarrollo",
+      role: "Full stack",
+      responsibilities: [
+        "Desarrollo de un CRM omnicanal y chatbot inteligente integrado con la API de Meta para la recepción centralizada de mensajes de WhatsApp e Instagram (incluyendo respuestas a historias).",
+        "Implementación del motor de IA utilizando la API de OpenAI, configurado con system prompts dinámicos y sincronización en tiempo real del stock de productos para respuestas automatizadas.",
+        "Desarrollo de un sistema de derivación inteligente: el bot gestiona las consultas generales y transfiere automáticamente la conversación a un operador humano ante intenciones de compra complejas.",
+        "Integración con la API de Meta Ads para la extracción y visualización analítica de métricas de rendimiento, inversión, alcance y conversión de campañas publicitarias dentro del dashboard.",
+        "Diseño de un panel de control adaptado para desktop y dispositivos móviles, permitiendo la gestión manual de chats, control de estados del bot y visualización de métricas de conversiones."
+      ],
+      technologies: [
+        { logo: NextjsIcon, name: "Next.js" },
+        { logo: ReactIcon, name: "React" },
+        { logo: FirebaseIcon, name: "Firebase" },
+        { logo: MetaIcon, name: "Meta" },
+        { logo: OpenAIIcon, name: "Openai" },
+      ],
+      images: [
+        "/chatbot1.png",
+        "/chatbot2.png",
+        "/chatbot3.png",
+        "/chatbot4.png",
+        //por ahi faltaria agregar imagenes en mobile
       ],
     },
   ],
