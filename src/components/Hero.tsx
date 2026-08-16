@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaFileAlt, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { portfolioData } from "../data.tsx";
 import stylesContact from "../styles/contact.module.css";
 import styles from "../styles/hero.module.css";
@@ -44,10 +44,21 @@ const Hero: React.FC = () => {
       <section className={stylesContact.contact}>
         {/* Botones de contacto */}
         <a
-          href={`mailto:${portfolioData.contact.email}`}
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=${portfolioData.contact.email}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className={stylesContact.contactLink}
         >
           <FaEnvelope className={stylesContact.icon} /> Email
+        </a>
+
+        <a
+          href={portfolioData.contact.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={stylesContact.contactLink}
+        >
+          <FaWhatsapp className={stylesContact.icon} /> WhatsApp
         </a>
 
         <a
