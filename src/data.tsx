@@ -114,6 +114,10 @@ export const portfolioData = {
         { logo: PostgreSQLIcon, name: "PostgreSQL" },
         { logo: HTMLIcon, name: "HTML" },
       ],
+      //deberia clonar el proyecto y alta paja, de ultima crear una con antigravity
+      images: [
+
+      ],
     },
     {
       degree: "Tesina de Grado: Planificador de Tiempo Real con Slack Stealing",
@@ -153,8 +157,9 @@ export const portfolioData = {
         { logo: KotlinIcon, name: "Kotlin" },
         { logo: JetpackComposeIcon, name: "Jetpack Compose" },
       ],
+      //ver como arreglar esta imagen porque si la pongo se ve como el orto
       images: [
-        "/padel1.png",
+        //"/padel1.png",
       ],
     },
   ]

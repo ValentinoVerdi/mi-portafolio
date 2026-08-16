@@ -87,14 +87,7 @@ const EducationCard = ({ edu }: { edu: any }) => {
             src={currentImgSrc}
             alt={`Imagen de ${edu.degree}`}
             className={styles.educationImage}
-            style={{
-              maxWidth: "85%",
-              maxHeight: "450px",
-              width: "auto",
-              height: "auto",
-              objectFit: "contain",
-              borderRadius: "8px"
-            }}
+            style={{ width: "75%", height: "auto", borderRadius: "8px" }}
           />
 
           {/* Flecha Derecha */}
