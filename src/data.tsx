@@ -1,5 +1,6 @@
 import AndroidStudioIcon from "./components/icons/AndroidStudio.tsx";
 import AngularIcon from "./components/icons/Angular.tsx";
+import BinanceIcon from "./components/icons/BinanceIcon.tsx";
 import CplusplusIcon from "./components/icons/Cplusplus.tsx";
 import ESP32Icon from "./components/icons/ESP32.tsx";
 import FirebaseIcon from "./components/icons/Firebase.tsx";
@@ -118,6 +119,52 @@ export const portfolioData = {
         "/chatbot3.png",
         "/chatbot4.png",
         //por ahi faltaria agregar imagenes en mobile
+      ],
+    },
+    {
+      title: "El Mundo del Celular - ERP & CRM Empresarial Avanzado",
+      date: "12/2025 - 06/2026",
+      role: "Full Stack",
+      responsibilities: [
+        "Desarrollo integral de un sistema CRM para la gestión completa del negocio, con vistas diferenciadas por rol (Modo Admin / Modo Vendedor) sobre React, Node.js y Firebase.",
+        "Módulo de Tareas tipo Notion para asignación y seguimiento de tareas a empleados (guiones de contenido, checklist de trabajo diario), junto con una Agenda personal para organización de turnos de los administradores.",
+        "Dashboard financiero en tiempo real con métricas de ventas del día y comparativas históricas (día/semana/mes), valorización de stock, sincronizado mediante API con Binance para trazabilidad y conciliación exacta de transacciones y transferencias.",
+        "Panel de Administración con seguimiento de pedidos de clientes, stock, equipos en servicio técnico, registro y reportes de gastos (personales y del local), e integración fiscal con la API de ARCA para la emisión automatizada de facturas electrónicas.",
+        "Módulo de Reportes con gráficos analíticos de negocio (Top 5 productos más vendidos, costo real en regalos entregados, entre otros) para la toma de decisiones.",
+        "Sistema inteligente de Comprobantes integrado con la API de Meta (WhatsApp): un bot conectado a un número recibe comprobantes de pago de cualquier banco y los parsea y almacena automáticamente.",
+        "Gestión avanzada de Inventario con impresión automática de etiquetas térmicas (nombre, código de barra y precio) mediante integración con impresora térmica NexusPOS X-NX 460U.",
+        "Sincronización en tiempo real con un catálogo externo (vía API): cada alta, modificación o baja de productos en el inventario (así como el descuento de stock automático tras concretar una venta) impacta y actualiza de forma directa la aplicación orientada a los clientes desarrollada por terceros.",
+        "Lista de Precios con catálogo completo de venta y valores de canje para equipos usados como parte de pago.",
+        "Módulo de Ventas con generación automática de facturas ARCA (ventas y compras de bienes usados) en caso de ser necesarias y lectura por pistola de código de barras para carga rápida de productos.",
+        "Módulo de Presupuestos para cotizar múltiples equipos a clientes, con impresión directa mediante integración con impresora HP Smart Tank 580.",
+        "Finanzas de Clientes con auditoría completa de ventas por cliente, y módulo de Clientes para seguimiento de altas y actividad.",
+        "Módulo de Pedidos para equipos sin stock disponible, y módulo de Proveedores y Logística con comparador inteligente de precios que recomienda a qué proveedor comprar según la lista de precios cargada de cada uno.",
+        "Control de RRHH (Empleados) con gráficos de ventas por empleado, horas trabajadas, vacaciones y faltas, además de un módulo de Auditoría para cierres de caja, ventas y stock.",
+        "Asistente inteligente integrado con la API de OpenAI para consultas contextuales sobre stock, clientes y métricas de ventas.",
+        "Panel de Configuración general para administradores."
+      ],
+      technologies: [
+        { logo: ReactIcon, name: "React" },
+        { logo: NodejsIcon, name: "Node.js" },
+        { logo: FirebaseIcon, name: "Firebase" },
+        { logo: MetaIcon, name: "Meta" },
+        { logo: OpenAIIcon, name: "OpenAI" },
+        { logo: BinanceIcon, name: "Binance" },
+        // { logo: BinanceIcon, name: "ARCA" },
+      ],
+      images: [
+        "/iphones1.png",
+        "/iphones2.png",
+        "/iphones3.png",
+        "/iphones4.png",
+        "/iphones5.png",
+        "/iphones6.png",
+        "/iphones7.png",
+        "/iphones8.png",
+        "/iphones9.png",
+        "/iphones10.png",
+        "/iphones11.png",
+        "/iphones12.png",
       ],
     },
   ],
