@@ -1,5 +1,6 @@
 import AndroidStudioIcon from "./components/icons/AndroidStudio.tsx";
 import AngularIcon from "./components/icons/Angular.tsx";
+import ARCAIcon from "./components/icons/ARCAIcon.tsx";
 import BinanceIcon from "./components/icons/BinanceIcon.tsx";
 import CplusplusIcon from "./components/icons/Cplusplus.tsx";
 import ESP32Icon from "./components/icons/ESP32.tsx";
@@ -70,7 +71,7 @@ export const portfolioData = {
         "Dashboard financiero en tiempo real con métricas de ventas del día y comparativas históricas (día/semana/mes), valorización de stock, sincronizado mediante API con Binance para trazabilidad y conciliación exacta de transacciones y transferencias.",
         "Panel de Administración con seguimiento de pedidos de clientes, stock, equipos en servicio técnico, registro y reportes de gastos (personales y del local), e integración fiscal con la API de ARCA para la emisión automatizada de facturas electrónicas.",
         "Módulo de Reportes con gráficos analíticos de negocio (Top 5 productos más vendidos, costo real en regalos entregados, entre otros) para la toma de decisiones.",
-        "Sistema inteligente de Comprobantes integrado con la API de Meta (WhatsApp): un bot conectado a un número recibe comprobantes de pago de cualquier banco y los parsea y almacena automáticamente.",
+        "Sistema inteligente de Comprobantes integrado con la API de Meta (WhatsApp): un bot conectado a un número recibe comprobantes de pago de cualquier banco, los parsea, almacena y los reenvía al whatsapp de la financiera automáticamente.",
         "Gestión avanzada de Inventario con impresión automática de etiquetas térmicas (nombre, código de barra y precio) mediante integración con impresora térmica NexusPOS X-NX 460U.",
         "Sincronización en tiempo real con un catálogo externo (vía API): cada alta, modificación o baja de productos en el inventario (así como el descuento de stock automático tras concretar una venta) impacta y actualiza de forma directa la aplicación orientada a los clientes desarrollada por terceros.",
         "Módulo de Ventas con generación automática de facturas ARCA (ventas y compras de bienes usados) en caso de ser necesarias y lectura por pistola de código de barras para carga rápida de productos.",
@@ -83,10 +84,10 @@ export const portfolioData = {
         { logo: NextjsIcon, name: "Next.js" },
         { logo: NodejsIcon, name: "Node.js" },
         { logo: FirebaseIcon, name: "Firebase" },
-        { logo: MetaIcon, name: "Meta" },
-        { logo: OpenAIIcon, name: "OpenAI" },
-        { logo: BinanceIcon, name: "Binance" },
-        // { logo: BinanceIcon, name: "ARCA" },
+        { logo: MetaIcon, name: "Meta API" },
+        { logo: OpenAIIcon, name: "OpenAI API" },
+        { logo: BinanceIcon, name: "Binance API" },
+        { logo: ARCAIcon, name: "ARCA API" },
       ],
       images: [
         "/iphones1.png",
@@ -105,7 +106,7 @@ export const portfolioData = {
     },
     {
       title: "El Mundo del Celular - CRM & AI Chatbot Omnicanal",
-      date: "04/2026 - En desarrollo",
+      date: "04/2026 - Actualmente",
       role: "Full stack",
       responsibilities: [
         "Desarrollo de un CRM omnicanal y chatbot inteligente integrado con la API de Meta para la recepción centralizada de mensajes de WhatsApp e Instagram (incluyendo respuestas a historias).",
@@ -119,8 +120,8 @@ export const portfolioData = {
         { logo: NodejsIcon, name: "Node.js" },
         { logo: ReactIcon, name: "React" },
         { logo: FirebaseIcon, name: "Firebase" },
-        { logo: MetaIcon, name: "Meta" },
-        { logo: OpenAIIcon, name: "Openai" },
+        { logo: MetaIcon, name: "Meta API" },
+        { logo: OpenAIIcon, name: "OpenAI API" },
       ],
       images: [
         "/chatbot1.png",
@@ -177,7 +178,7 @@ export const portfolioData = {
     {
       degree: "Tesina de Grado: Planificador de Tiempo Real con Slack Stealing",
       institution: "Sistemas Embebidos de Tiempo Real",
-      year: "05/2026 - 12/2026",
+      year: "05/2026 - Actualmente",
       projects: [
         "Programación del algoritmo de Slack Stealing (SS) en lenguaje C++ utilizando el IDE de Arduino sobre un microcontrolador ESP32.",
         "Implementación de una Tarea Planificadora (ST) heterogénea orientado a eventos sobre FreeRTOS, administrando el tiempo ocioso y optimizando el tiempo de respuesta de las Tareas de No Tiempo Real (TNTR) sin comprometer los vencimientos de las Tareas de Tiempo Real (TTR).",
